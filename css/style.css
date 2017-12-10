@@ -1,0 +1,29 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Lato', sans-serif;
+	background: #f3f3f3f3;
+}
+.main-head{
+	padding: 0px;
+	margin: 0px;
+}
+.navWrapper{
+	background: #4F8699;
+	height: 100px;
+	text-align: center;
+	font-size: 1.3em;
+}
+.navList{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.navList li{
+	display: inline-block;
+	padding: 30px 0px 30px 30px;	
+}
+.navList li a{
+	text-decoration: none;
+	color: #333333;
+}
