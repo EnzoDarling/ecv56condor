@@ -1,11 +1,12 @@
 *{
 	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
 }
 body{
 	margin: 0px;
 	padding: 0px;
 	font-family: 'Lato', sans-serif;
-	background: #f3f3f3f3;
 	font-size: 1rem;
 	line-height: 1.5;
 	overflow-x: hidden;
@@ -30,13 +31,19 @@ body{
 }
 .NavHeader ul li{
 	list-style: none;
-	display: inline-block;
-	padding: 1.5rem 2rem 1.5rem 2rem;
+	display: inline-block;	
 	text-transform: uppercase;
+	font-weight: 600;
+	padding-top: 1.5rem;	
 }
 .NavHeader li a{
+	color: #fff;	
 	text-decoration: none;
-	color: #fff;
+	margin: 0px;
+	padding: 2.1rem;
+}
+.NavHeader li a:hover{	
+	color: #000;
 }
 .container{
 	max-width: 960px;
@@ -45,6 +52,7 @@ body{
 	margin: auto;
 	text-align: center;
 }
+/* Seccion Fondo de Video */
 .fullscreen-video-wrap{
 	position: absolute;
 	top: 0;
@@ -67,7 +75,7 @@ body{
 	left: 0;
 	background: #224470;
 	z-index: 1;
-	opacity: 0.75;
+	opacity: 0.65;
 }
 .header-content{
 	z-index: 2;
@@ -80,4 +88,52 @@ body{
 	font-size: 1.5rem;
 	display: block;
 	padding-bottom: 2rem;
+}
+.InfoContent{
+	background: #F6F6F6;
+	color: #424242;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	height: 400px;
+	text-align: center;	
+}
+.InfoContent h1{
+	padding: 2rem 0px;
+	font-size: 2.5rem;	
+}
+.InfoContent p{
+	padding: 1.2rem;
+	font-size: 1.2rem;
+}
+.InfoContent .InfoImg{
+	background-image: url("/img/taxi.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100vh;
+}
+.Sim{
+	background: #f6f6f6;
+	height: 400px;
+	text-align: center;
+}
+.SimWrapper{
+	padding-top: 50px;	
+}
+.SimWrapper h1{
+	color: #424242;
+	padding: 2rem 0px;
+	font-size: 2.5rem;
+}
+.SimWrapper p{
+	font-size: 1.2rem;
+	padding: 0px 2rem;
+}
+.Cards{
+	background: #66BB6A;	
+}
+.card{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 1em;
+	background: #f6f6f6;
 }
