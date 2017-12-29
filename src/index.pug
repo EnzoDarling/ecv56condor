@@ -1,0 +1,115 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+    // Fuentes
+    link(href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet")
+    // Estilos
+    link(rel="stylesheet" href="css/style.css")
+    title ECV56 Ala Falcon
+  body
+    // Barra de Navegacion
+    nav.NavHeader
+      ul.NavWrap
+        li
+          a(href="") Misiones
+        li
+          a(href="") Campañas
+        li
+          a(href="") Historia
+        li
+          a(href="") Rooster
+        li
+          a(href="") Acerca de
+
+      // Responsive Menu
+
+      // 24th of November 2015
+      //All rights reserved
+      #menuToggle
+      
+        // A fake / hidden checkbox is used as click reciever,
+        //so you can use the :checked selector on it.
+        input(type='checkbox')
+        //
+          Some spans to act as a hamburger.
+          They are acting like a real hamburger,
+          not that McDonalds stuff.
+        span
+        span
+        span
+        //
+          Too bad the menu has to be inside of the button
+          but hey, it's pure CSS magic.
+        ul#menu
+          a(href='#')
+            li Home
+          a(href='#')
+            li About
+          a(href='#')
+            li Info
+          a(href='#')
+            li Contact
+          a(href='https://erikterwan.com/', target='_blank')
+            li Show me more
+
+    // Header
+    header.main-head.container
+      // Header Fondo Video
+      .fullscreen-video-wrap
+        video(muted="" src="vid/ec56falcon2.webm" autoplay="true" loop="true")
+      .header-overlay
+      .header-content
+        // Header Titulo y Parrafo
+        h1 ECV56 Condor | Ala Falcon
+        p
+          | Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur debitis ipsum qui quos accusantium ex facilis aperiam iure quaerat incidunt.
+    // Info
+    section.InfoContent
+      .InfoWrapper
+        h1  ECV56 Ala Falcon y su historia
+        p
+          | Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam error eum odio minus corrupti impedit, earum debitis quas deleniti soluta cum alias ipsa quia iure! Laborum libero praesentium voluptatem earum doloremque, voluptatum perspiciatis rem quaerat ipsam nesciunt perferendis soluta vero animi dicta sunt? Dignissimos, optio modi sit cumque aliquid, autem recusandae quia est sequi, mollitia possimus. A eius, ullam est nostrum in unde veritatis, adipisci odit beatae similique, laboriosam harum.
+      .InfoImg
+    // Seccion Simulador
+    section.Sim
+      .SimWrapper
+        // Texto Secc. Simulador
+        h1 Falcon BMS 4.33
+        p
+          | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium atque libero, quisquam earum repellat et praesentium impedit quaerat alias. Suscipit corporis praesentium totam perferendis, dolor doloremque quo ratione aperiam ullam vitae fugiat commodi enim, corrupti eum natus possimus nisi quaerat! Quidem aperiam error nam sit laudantium. Consequatur, iste. Laborum, sapiente? Labore dignissimos deserunt impedit assumenda ab! Labore expedita eligendi placeat id. Impedit explicabo inventore dolor optio porro suscipit quam, officiis corporis beatae sunt consectetur nisi, earum ratione, atque qui consequuntur.
+    // Seccion Cartas
+    section.Cards
+      .card
+        .Card1
+          // Imagen Cartas
+          img(src="" alt="")
+          // Texto Cartas
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, inventore.
+        .Card2
+          // Imagen Cartas
+          img(src="" alt="")
+          // Texto Cartas
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, aspernatur.
+        .Card3
+          // Imagen Cartas
+          img(src="" alt="")
+          // Texto Cartas
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, magnam.
+    // Seccion Acerca de
+    section.About
+      .AboutWrapper
+        h2 Sobre nosotros
+        p
+          | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate veniam obcaecati quisquam perspiciatis aperiam minima fugit officiis enim impedit qui tempora, commodi, magni dolor rerum totam eligendi libero, itaque aspernatur?
+    // Footer
+    footer.Footer
+      p
+        | Todos los derechos y contenidos pertenecen a 
+        a(href="") ECV56 Ala Falcon
+        |  &copy
+      p 2017
+      a(href="") Facebook
+      a(href="") Foro
+      a(href="") TeamSpeak
