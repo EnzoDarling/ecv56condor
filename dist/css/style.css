@@ -83,19 +83,21 @@ body {
     padding-bottom: 2rem; }
 
 .InfoContent {
+  position: relative;
   background: #F6F6F6;
   color: #424242;
   display: grid;
   padding: 50px 0px 50px 0px;
   grid-template-columns: 50% 50%;
-  height: 400px;
   text-align: center; }
   .InfoContent h1 {
     padding: 2rem 0px;
     font-size: 2.5rem; }
   .InfoContent blockquote {
-    padding: 1.2rem;
+    padding: 1.1rem;
     font-size: 1.2rem; }
+  .InfoContent p {
+    padding: 0.5rem; }
   .InfoContent p {
     color: #424242;
     text-align: right;
@@ -109,18 +111,31 @@ body {
     background-size: 100vh; }
 
 .Sim {
+  position: relative;
   background: #F6F6F6;
-  height: 400px;
-  text-align: center; }
+  text-align: center;
+  padding: 100px 0px; }
 
-.SimWrapper {
-  padding: 100px 0px 100px 0px; }
-  .SimWrapper h1 {
-    color: #424242;
-    font-size: 2.5rem;
-    padding-bottom: 10px; }
-  .SimWrapper p {
-    font-size: 1.2rem; }
+.SimWrapper h1 {
+  color: #424242;
+  font-size: 2.5rem;
+  padding-bottom: 100px; }
+
+.SimWrapper .SimIcons {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around; }
+  .SimWrapper .SimIcons .IconItem {
+    padding: 20px;
+    border: 1px #424242 solid;
+    box-shadow: #424242 0.5px 0.5px 5px;
+    border-radius: 1em; }
+    .SimWrapper .SimIcons .IconItem p {
+      color: #424242; }
+  .SimWrapper .SimIcons .IconItem .simIcon {
+    font-size: 4em;
+    color: #01579B;
+    padding: 20px; }
 
 .Cards {
   background: #F6F6F6;
@@ -155,18 +170,18 @@ body {
 
 .About {
   position: relative;
-  padding: 10px;
+  padding-bottom: 150px;
   text-align: center;
   font-size: 1.2em;
   color: #424242;
   background-color: #F6F6F6; }
   .About .AboutWrapper h2, .About .AboutWrapper p {
-    padding: 30px 0px; }
+    padding: 20px 0px; }
 
 .Footer {
   position: relative;
   display: flex;
-  padding: 10px;
+  padding: 100px;
   text-align: center;
   background-color: #263238;
   color: #F6F6F6; }
