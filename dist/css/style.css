@@ -178,15 +178,21 @@ body {
   .About .AboutWrapper h2, .About .AboutWrapper p {
     padding: 20px 0px; }
 
-.Footer {
+.Footer, .foot {
   position: relative;
   display: flex;
   padding: 100px;
   text-align: center;
   background-color: #263238;
-  color: #F6F6F6; }
-  .Footer a {
+  color: #F6F6F6;
+  font-size: 1.2em;
+  justify-content: center;
+  justify-content: space-around; }
+  .Footer a, .foot a {
+    font-family: 'Lato', sans-serif;
     color: #F6F6F6;
     text-decoration: none; }
-    .Footer a:hover {
+    .Footer a:hover, .foot a:hover {
       color: #01579B; }
+    .Footer a .linkIcon, .foot a .linkIcon {
+      font-size: 2.5em; }
