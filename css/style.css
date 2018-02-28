@@ -97,15 +97,15 @@ body {
     padding: 1.1rem;
     font-size: 1.2rem; }
   .InfoContent p {
-    padding: 0.5rem; }
-  .InfoContent p {
+    padding: 0.5rem;
+    color: #424242;
     color: #424242;
     text-align: right;
     font-size: 1.2rem; }
     .InfoContent p a {
       text-decoration: none; }
   .InfoContent .InfoImg {
-    background-image: url("/img/taxi.jpg");
+    background-image: url("../img/taxi.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100vh; }
@@ -132,10 +132,10 @@ body {
     border-radius: 1em; }
     .SimWrapper .SimIcons .IconItem p {
       color: #424242; }
-  .SimWrapper .SimIcons .IconItem .simIcon {
-    font-size: 4em;
-    color: #01579B;
-    padding: 20px; }
+    .SimWrapper .SimIcons .IconItem .simIcon {
+      font-size: 4em;
+      color: #01579B;
+      padding: 20px; }
 
 .Cards {
   background: #F6F6F6;
@@ -154,8 +154,8 @@ body {
     color: #F6F6F6;
     flex-basis: 30%;
     box-shadow: #000000 1px 1px 5px; }
-    .card .Card1 p, .card .Card2 p, .card .Card3 p {
-      padding: 10px; }
+  .card .Card1 p, .card .Card2 p, .card .Card3 p {
+    padding: 10px; }
   .card .Card1 .CardImg, .card .Card2 .CardImg, .card .Card3 .CardImg {
     background-position: center;
     background-size: cover;
@@ -185,8 +185,21 @@ body {
   text-align: center;
   background-color: #263238;
   color: #F6F6F6; }
-  .Footer a {
-    color: #F6F6F6;
-    text-decoration: none; }
-    .Footer a:hover {
-      color: #01579B; }
+  .Footer .FootInfo {
+    flex-basis: 50%;
+    text-align: center; }
+    .Footer .FootInfo p {
+      font-size: 1.2em; }
+  .Footer .FootLinks {
+    text-align: center;
+    margin: 0 auto;
+    display: flex; }
+    .Footer .FootLinks .linkItem {
+      padding: 0px 50px; }
+      .Footer .FootLinks .linkItem a {
+        color: #F6F6F6;
+        text-decoration: none; }
+        .Footer .FootLinks .linkItem a:hover {
+          color: #01579B; }
+        .Footer .FootLinks .linkItem a i {
+          font-size: 2em; }
